@@ -21,7 +21,7 @@ namespace multiple_forms
             main = new MainForm();
             end = new EndForm();
             Application.EnableVisualStyles();
-           // Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(false);
             start = new StartForm();
             Application.Run(start);
             
