@@ -18,10 +18,10 @@ namespace multiple_forms
         [STAThread]
         static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             main = new MainForm();
             end = new EndForm();
-            Application.EnableVisualStyles();
-           // Application.SetCompatibleTextRenderingDefault(false);
             start = new StartForm();
             Application.Run(start);
             
